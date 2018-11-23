@@ -6,4 +6,4 @@ clean:
 	rm -rf pkg/build
 
 pkg:
-	cd pkg && makepkg -Acs && cd ../
+	mkdir -p pkg/build && cp pkg/PKGBUILD pkg/build/ && cd pkg/build && makepkg -Acs && cd ../../
