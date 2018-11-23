@@ -5,8 +5,8 @@ arch: # anything to be tested under Arch is defined below this
   # pacman packages
   - yaourt
   - archiso
- script: 
-  - makepkg -Acs pkg/PKGBUILD
+ script:
+  - cd pkg && makepkg -Acs && cd ../
 
 script: #for setting up arch chroot using the arch travis script
  - curl -s https://raw.githubusercontent.com/fossasia/arch-travis/master/arch-travis.sh | bash

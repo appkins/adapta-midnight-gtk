@@ -1,3 +1,3 @@
 #!/bin/bash
-cd pkg
-makepkg -Acs
+mkdir -p pkg/build && cp pkg/PKGBUILD pkg/build/ && cd pkg/build
+makepkg -ACcs
