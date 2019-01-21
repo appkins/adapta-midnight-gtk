@@ -1,6 +1,6 @@
 [submodule "theme"]
 	path = theme
 	url = https://github.com/gtk-themes/adapta-midnight
-[submodule "pkg"]
-	path = pkg
+[submodule "pkg/gnome"]
+	path = pkg/gnome
 	url = https://github.com/aur-pkg/adapta-midnight-gtk-theme-git.git
